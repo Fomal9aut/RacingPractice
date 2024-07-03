@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace RacingEntities.Entities.RaceEntities
 {
-    internal class RaceClass
+    internal class RaceClassEntity
     {
         [Column(TypeName = "id")]
         public Guid Id { get; set; }
