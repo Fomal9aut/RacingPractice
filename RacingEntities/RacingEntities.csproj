@@ -10,11 +10,12 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>RacingEntities</RootNamespace>
     <AssemblyName>RacingEntities</AssemblyName>
-    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -116,6 +117,7 @@
     <Compile Include="Entities\RaceEntities\RaceClassEntity.cs" />
     <Compile Include="Entities\RaceEntities\RaceEntity.cs" />
     <Compile Include="Entities\RaceEntities\TeamEntity.cs" />
+    <Compile Include="Entities\GenderMemberEntity.cs" />
     <Compile Include="Entities\RacingMemberEntity.cs" />
     <Compile Include="Entities\VehicleInfoEntity\VehicleBrandEntity.cs" />
     <Compile Include="Entities\VehicleInfoEntity\VehicleEntity.cs" />
@@ -127,7 +129,6 @@
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
-  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>

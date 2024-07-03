@@ -79,6 +79,8 @@ namespace RacingEntities.Entities
 
         public List<LinkEntity> Links { get; set; }
         public List<TeamEntity> Teams { get; set; }
+        public List<GenderMemberEntity> GenderMember { get; set; }
+        public List<CategoryMember> CategoryMember { get; set; }
 
     }
 }

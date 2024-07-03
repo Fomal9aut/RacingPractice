@@ -25,5 +25,7 @@ namespace RacingEntities.Entities.RaceEntities
         public List<TeamEntity> Teams { get; set; }
 
         public List<VehicleTypeEntity> VehicleTypes { get; set; }
+        public List<GenderMemberEntity> GenderMember { get; set; }
+        public List<CategoryMember> CategoryMember { get; set; }
     }
 }

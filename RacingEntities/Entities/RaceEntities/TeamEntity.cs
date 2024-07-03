@@ -21,5 +21,6 @@ namespace RacingEntities.Entities.RaceEntities
         public string TeamPhoto { get; set; } = null;
 
         public List<RacingMemberEntity> Members { get; set; }
+        public List<RaceEntity> Race { get; set; }
     }
 }

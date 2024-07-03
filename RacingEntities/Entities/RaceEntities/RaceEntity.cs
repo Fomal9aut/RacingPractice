@@ -44,6 +44,8 @@ namespace RacingEntities.Entities.RaceEntities
         public string RegulationLink { get; set; }
 
         public List<RaceClassEntity> raceClasses { get; set; }
+        public List<OrganizerEntity> Organizer { get; set; }
+        public List<TeamEntity> teams { get; set; }
 
     }
 }
